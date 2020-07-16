@@ -1,8 +1,20 @@
 var nombreCliente;
 var apellidoCliente;
+var edadCliente;
+var enviar;
+var edad;
+nombreCliente = fnombre.value;
+apellidoCliente = fapellido.value;
+edadCliente = fedad.value;
+enviar = enviarCliente;
+edad = prompt("Ingrese su edad: ");
 
-nombreCliente = prompt("Porfavor ingrese su nombre de usuario: ");
-apellidoCliente = propmt("Porfavor ingrese su apellido: ");
-
-alert("Bienvenido" + nombreCliente + " " + apellidoCliente);
+if(edad >=18)
+{
+    alert("Bienvenido" + nombreCliente + " " + apellidoCliente + edadCliente);    
+}
+else
+{
+    alert("Ingrese datos validos!");
+}
 
